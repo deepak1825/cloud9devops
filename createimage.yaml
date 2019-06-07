@@ -1,0 +1,19 @@
+---
+- hosts: localhost
+  tasks:
+    - name: Stop the ec2 instance 
+      ec2_instance:
+        state: stopped
+        wait: yes
+        instance_ids:
+          - i-0a7e32e0c4eead1ee
+    - name: create impage 
+      ec2_ami:
+        instance_id: i-0a7e32e0c4eead1ee
+        wait: yes
+        name: deepakmyapp-web-1.0
+        tags:
+          Name: deepakmyapp-web-1.0
+          
+          
+       

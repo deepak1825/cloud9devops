@@ -1,0 +1,412 @@
+    1  cd
+    2  cd -
+    3  ls -lrt
+    4  ps -ef
+    5  df -lh 
+    6  pwd
+    7  top
+    8  git
+    9  git clone https://github.com/deepak1825/Devops.git
+   10  git clone https://github.com/deepak1825/deepakdevops.git
+   11  ls -lrt
+   12  cd deepakdevops
+   13  cd ..
+   14  sudo yum -y install git 
+   15  git 
+   16  ls -lrt 
+   17  cd deepakdevops/
+   18  ls -la
+   19  ls -lrt
+   20  git status
+   21  git config
+   22  git -add index.html
+   23  git add index.html
+   24  git commit -m "first commit"
+   25  git config --global deepak 
+   26  git config --global deepak1825@gmail.com
+   27  git config --global user.name deepak 
+   28  git config --global user.name deepak1825@gmail.com
+   29  git commit -m "my first commit"
+   30  git status
+   31  id
+   32  git push 
+   33  git log
+   34  git branch -v
+   35  git create branch dev
+   36  git branch dev
+   37  git branch sq
+   38  git branch qa
+   39  git delete branch sq
+   40  git checkout dev
+   41  git branch -v
+   42  git -d sq
+   43  git add all
+   44  git add -all
+   45  git add --all
+   46  git commit -m "test2"
+   47  git branch -v
+   48  history
+   49  git branch -v
+   50  git checkout qa
+   51  git merge dev 
+   52  git branch -v
+   53  git add --all
+   54  git commit -m "test3"
+   55  git checkout dev
+   56  git add --all
+   57  git commit -m "test4"
+   58  git branch -v
+   59  git checkout qa
+   60  git merge dev 
+   61  git pull
+   62  git merge dev 
+   63  git add --all
+   64  git commit -m "merging"
+   65  git push
+   66  git log
+   67  git commit -m "merging"
+   68  git checkout dev
+   69  git merge 
+   70  git add -all
+   71  git add --all
+   72  git commit -m "test5"
+   73  git merge 
+   74  git merge dev 
+   75  git checkout qa
+   76  git merge qa
+   77  git branch -v
+   78  git merge dev
+   79  git checkout qa
+   80  git merge qa
+   81  git push
+   82  git remote -v
+   83  git checkout dev
+   84  git remote -v
+   85  git push --set-upstream orgin webdev-1.0
+   86  git push --set-upstream orgin\webdev-1.0 
+   87  git push --set-upstream- orgin dev:webdev-1.0 
+   88  git push --set-upstream  orgin dev:webdev-1.0 
+   89  git push --set-upstream  origin dev:webdev-1.0 
+   90  git add *
+   91  git commmit -m "testing"
+   92  git commit -m "testing"
+   93  git push --set-upstream  origin dev:webdev-1.0 
+   94  git pull 
+   95  git pull origin webdev-1.0
+   96  git branch -v --all
+   97  git add -all 
+   98  git add *
+   99  git commit -m "remote"
+  100  git push --set-upstream  origin dev:webdev-1.0 
+  101  $ sudo yum -y install java-1.8.0-openjdk.x86_64
+  102  sudo yum -y install java-1.8.0-openjdk.x86_64
+  103  sudo yum -y remove java-1.7.0-openjdk
+  104  sudo wget -O /etc/yum.repos.d/jenkins.repo http://pkg.jenkins-ci.org/redhat-stable/jenkins.repo
+  105  sudo  rpm --import http://pkg.jenkins-ci.org/redhat-stable/jenkins-ci.org.key
+  106  sudo yum install -y  jenkins
+  107  sudo service jenkins start
+  108  sudo chkconfig jenkins on
+  109  sudo service jenkins status
+  110  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+  111  ls -lrt
+  112  cd deepakdevops/
+  113  ls -lrt
+  114  git add *
+  115  git commit -m "testing jenkins"
+  116  git push --set-upstream  origin dev:webdev-1.0
+  117  git add *
+  118  git commit -m "testing jenkins"
+  119  git push --set-upstream  origin dev:webdev-1.0
+  120  cd
+  121  cd /environment
+  122  ls -lrt
+  123  cd environment/
+  124  wget http://www-us.apache.org/dist/maven/maven-3/3.5.4/binaries/apache-maven-3.5.4-bin.tar.gz
+  125  tar xzvf apache-maven-3.5.4-bin.tar.gz
+  126  sudo mv apache-maven-3.5.4 /usr/local
+  127  sudo yum -y install java-1.8.0-openjdk-devel
+  128  sudo mv apache-maven-3.5.4 /usr/local
+  129  ls
+  130  tar xzvf apache-maven-3.5.4-bin.tar.gz
+  131   sudo mv apache-maven-3.5.4 /usr/local
+  132  ls -lrt
+  133  cd /usr/local/
+  134  ls
+  135  cd apache-maven-3.5.4/
+  136  ./bin/mvn
+  137  ls -lrt
+  138  ./bin/mvn
+  139  df -lh 
+  140  du -sh 
+  141  df -lh .
+  142  cd /usr
+  143  ls -lrt
+  144  cd local
+  145  ls -lrt
+  146  cd apache-maven-3.5.4/
+  147  ls -lrt
+  148  pwd
+  149  cd /var/
+  150  ls -lrt
+  151  cd lib
+  152  ls -lrt
+  153  cd jenkins/
+  154  ls -lrt
+  155  cd plugins/
+  156  ls -lrt
+  157  ls 
+  158  cd ../..
+  159  cd jenkins/
+  160  cd ..
+  161  cd workspace
+  162  cd jenkins/
+  163  cd workspace
+  164  ls -lrt
+  165  cd webdeploy
+  166  ls -lrt
+  167  cd ../..
+  168  cd jobs
+  169  ls -lrt
+  170  cd webdeploy/
+  171  ls -lrt
+  172  cat config.xml 
+  173  cd ../..
+  174  ls -lrt
+  175  cd
+  176  ls 
+  177  cd environment/
+  178  sudo yum -y install ansible 
+  179  ls -lrt
+  180  chmod 600 webkey.pem 
+  181  ls -lrt
+  182  vi webkey.pem 
+  183  pwd
+  184  sudo vi /etc/ansible/ansible.cfg 
+  185  cd /etc
+  186  ls -lrt
+  187  cd -
+  188  ls -lrt
+  189  ansible -i ansiblehosts -m ping webservers
+  190  ls -lrt
+  191  ansible-playbook -i ansiblehost web.yaml
+  192  ansible-playbook -i ansiblehosts web.yaml
+  193  ls -lrt
+  194  ansible-playbook -i ansiblehosts web.yaml
+  195  ls -lrt
+  196  cd /etc 
+  197  ls -lrt
+  198  cd ansible/
+  199  ls -lrt
+  200  cd ..
+  201  cd 
+  202  ls -lrt
+  203  cd environment/
+  204  ls -lrt
+  205  cd deepakdevops/
+  206  ls -lrt
+  207  cd ..
+  208  ls -lrt
+  209  cd /var
+  210  ls -lrt
+  211  cd lib
+  212  ls -lrt
+  213  cd jenkins/
+  214  ls -lrt
+  215  cd ..
+  216  ls -lrt
+  217  cd 
+  218  ls -lrt
+  219  cd environment/
+  220  ls -lrt
+  221  ansible-playbook -i ansiblehosts web.yaml
+  222  sudo pip install boto boto3
+  223  ansible-playbook createimage.yaml -e "ansible_python_interprrter=/usr/bin/python"
+  224  ansible-playbook createimage.yaml -e "ansible_python_interpreter=/usr/bin/python"
+  225  git clone https://github.com/mohanraz/ansibleautomation
+  226  git clone https://github.com/mohanraz81/ansibleautomation
+  227  ls -lrt
+  228  cd ansibleautomation/
+  229  ls -lrt
+  230  cd ..
+  231  ls -lrt
+  232  vi deployvm.yaml
+  233  pwd
+  234  ls -lrt
+  235  ansible-playbook deployvm.yml -e "ansible_python_interpreter=/usr/bin/python"
+  236  ls -lrt
+  237  git remote add origin https://github.com/deepak1825/Devops.git
+  238  ls -lrt
+  239  cd Devops/
+  240  ls -lrt
+  241  cd ..
+  242  ls -lrt
+  243  mv ~/.aws ~/.awsbkp
+  244  ansible-playbook deployvm.yml -e "ansible_python_interpreter=/usr/bin/python"
+  245  ls -lrt
+  246  cd deepakdevops/
+  247  ls -lrt
+  248  git add *
+  249  git commit -m "ansible"
+  250  git push --set-upstream origin dev:webdev-1.0
+  251  ls -lrt
+  252  cd deploy/
+  253  ls -lrt
+  254  cd /lib/jenkins
+  255  cd /lib
+  256  cd var
+  257  cd /var
+  258  ls -lrt
+  259  cd lib
+  260  ls -lrt
+  261  cd jenkins/
+  262  ls -lrt
+  263  cd secrets
+  264  vi history
+  265  history
+  266  ls -lrt
+  267  ps -ef |grep jenkins
+  268  sudo yum -y install docker
+  269  sudo service docker start 
+  270  sudo chkconfig docker on 
+  271  sudo service doker status 
+  272  sudo service docker status 
+  273  sudo usermod -a -G docker ec2-user
+  274  ls -lrt
+  275  docker info
+  276  id -a 
+  277  docker pull httpd:2.4
+  278  docker impage
+  279  docker impages
+  280  docker images
+  281  ls -lrt
+  282  cd testapp/
+  283  ls -lrt
+  284  cd frontend/
+  285  ls -lrt
+  286  cd ..
+  287  docker build -t deepak1825/myapache:1.0 .
+  288  cd frontend/
+  289  docker build -t deepak1825/myapache:1.0 .
+  290  docker images
+  291  ip -a 
+  292  ip a
+  293  docker run --name deepakdocker -d -p 9000:80 deepak1825/myapache:1.0
+  294  curl http://localhost:9000
+  295  nestat -anp | grep 9000
+  296  netstat -anp | grep 9000
+  297  docker run --name deepakdocker -d -p 9000:80 deepak1825/myapache:1.0
+  298  cd ..
+  299  curl http://localhost:9000
+  300  docker run --name deepakdocker -d -p 9000:80 deepak1825/myapache:21.0
+  301  docker build -t deepak1825/myapache:2.0 .
+  302  ls -lrt
+  303  cd testapp/
+  304  ls -lrt
+  305  cd frontend/
+  306  docker build -t deepak1825/myapache:2.0 .
+  307  docker run --name deepakdocker -d -p 9000:80 deepak1825/myapache:2.0
+  308  docker run --name deepakdocker1 -d -p 9000:80 deepak1825/myapache:2.0
+  309  curl http://localhost:9000
+  310  docker ps 
+  311  docker log deepakdocker1
+  312  docker logs deepakdocker1
+  313  docker stop deepakdocker1; docker rm deepakdocker1
+  314  docker build -t deepak1825/myapache:2.1 .
+  315  docker run --name deepakdocker1 -d -p 9000:80 deepak1825/myapache:2.1
+  316  docker images
+  317  docker ps -a
+  318  cd ../..
+  319  ls -lrt
+  320  cd testnginx/
+  321  ls -lrt
+  322  cd frontend/
+  323  ls -lrt
+  324  docker run -dit --name ubuntu:18.04
+  325  docker run -dit --name ubuntu:18.04 .
+  326  ls -lrt
+  327  docker build -t deepak1825/ubuntu:1.0
+  328  docker build -t deepak1825/ubuntu:1.0 .
+  329  docker images
+  330  docker build -t deepak1825/ubuntu:1.0 .
+  331  ls -lrt
+  332  docker images
+  333  docker run -d --name ubuntu -p 9001:80 deepak1825/ubuntu:1.0
+  334  curl http://hocalhost
+  335  curl http://hocalhos:9001
+  336  curl http://hocalhost:9001
+  337  curl http://localhost:9001
+  338  docker exec -it ubuntu:1.0
+  339  docker ps
+  340  docker exec -it 17500568a523 /bin/bash
+  341  cd ..
+  342  curl http://localhost:9001
+  343  docker images
+  344  docker history deepak1825/ubuntu:1.0
+  345  cd /var/lib/docker
+  346  ls -lrt
+  347  sudo la -lrt
+  348  sodo ls -lrt
+  349  sudo /var/lib/docker
+  350  sudo cd /var/lib/docker
+  351  ls -lrt
+  352  id
+  353  sudo ec2-user
+  354  sudo docker
+  355  ls -lrt
+  356  id
+  357  cd ..
+  358  ls -lrt
+  359  id
+  360  sudo root
+  361  docker ps -a 
+  362  docker stop ubuntu deepakdocker1 deepakdocker;
+  363  docker ps -a 
+  364  rm ubuntu deepakdocker1 deepakdocker
+  365  docker rm ubuntu deepakdocker1 deepakdocker
+  366  docker ps -a 
+  367  docker stop vibrant_feynman
+  368  docker rm  vibrant_feynman
+  369  docker ps -a 
+  370  docker run -d --name ubuntu -d -p 9001:80 testubuntu_var_log:/var/log  deepak1825/ubuntu:1.0
+  371  docker run  --name ubuntu -d -p 9001:80 testubuntu_var_log:/var/log  deepak1825/ubuntu:1.0
+  372  docker run  --name ubuntu -d -p 9001:80 -v testubuntu_var_log:/var/log  deepak1825/ubuntu:1.0
+  373  docker volume ls
+  374  docker inspect testubuntu_var_log
+  375  sudo bash /var/lib/docker/volumes/testubuntu_var_log/_data
+  376  sudo bash 
+  377  cd
+  378  cd environment/
+  379  docker -run dit --name logagent -v testubuntu_var_log:/var/log :ro myapache:2.1
+  380  docker -run dit --name logagent -v testubuntu_var_log:/var/log:ro myapache:2.1
+  381  docker run  -dit --name logagent -v testubuntu_var_log:/var/log:ro myapache:2.1
+  382  docker run  -dit --name logagent -v testubuntu_var_log:/var/log:ro deepakdocker1
+  383  docker run  -dit --name logagent -v testubuntu_var_log:/var/log :ro myapache:2.1
+  384  docker run  -dit --name logagent -v testubuntu_var_log:/var/log:ro deepak1825/myapache:2.1
+  385  docker inspect testubuntu_var_log
+  386  docker volume ls
+  387  docker ps 
+  388  docker stop ubuntu ; docker rm ubuntu
+  389  docker ps 
+  390  docker login 
+  391  docker push 
+  392  docker impages 
+  393  docker images 
+  394  docker push deepak1825/ubuntu 
+  395  docker push deepak1825/myapache
+  396  dig ns student8.courseandlabs.com
+  397  wget -O kops https://github.com/kubernetes/kops/releases/download/1.8.1/kops-linux-amd64
+  398  chmod +x ./kops
+  399  sudo mv ./kops /usr/local/bin/
+  400  wget -O kubectl https://storage.googleapis.com/kubernetes-release/release/v1.8.1/bin/linux/amd64/kubectl
+  401  chmod +x ./kubectl
+  402  sudo mv ./kubectl /usr/local/bin/kubectl
+  403  aws s3api create-bucket --bucket kube-student8-courseandlabs-com  --region us-east-1
+  404  aws s3api put-bucket-versioning --bucket kube-student8-courseandlabs-com  --versioning-configuration Status=Enabled
+  405  echo "export NAME=kubecluster.student8.courseandlabs.com" >> ~/.bash_profile
+  406  echo "export KOPS_STATE_STORE=s3://kube-student8-courseandlabs-com" >> ~/.bash_profile
+  407  echo $KOPS_STATE_STORE
+  408  ls -lrt
+  409  history
+  410  docker push deepak1825/myapache
+  411  ls -lrt
+  412  history >> a.txt
